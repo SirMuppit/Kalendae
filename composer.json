@@ -1,0 +1,48 @@
+{
+    "name": "ChiperSoft/Kalendae",
+    "type": "magento-module",
+    "license": "MIT",
+    "homepage": "https://github.com/ChiperSoft/Kalendae",
+    "description": "A framework agnostic javascript date picker.",
+    "authors": [
+        {
+            "name": "Jarvis Badgley",
+            "email": "chiper@chipersoft.com"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "extra": {
+        "map": [
+            [
+                "build/arrows.png",
+                "js/kalendae/arrows.png"
+            ],
+            [
+                "build/close.png",
+                "js/kalendae/close.png"
+            ],
+            [
+                "build/kalendae.css",
+                "js/kalendae/kalendae.css"
+            ],
+            [
+                "build/kalendae.js",
+                "js/kalendae/kalendae.js"
+            ],
+            [
+                "build/kalendae.min.js",
+                "js/kalendae/kalendae.min.js"
+            ],
+            [
+                "build/kalendae.standalone.js",
+                "js/kalendae/kalendae.standalone.js"
+            ],
+            [
+                "build/kalendae.standalone.min.js",
+                "js/kalendae/kalendae.standalone.min.js"
+            ]
+        ]
+    }
+}
